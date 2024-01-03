@@ -15,5 +15,7 @@ The code writing was started on my older windows manage desktop, using Jupyter n
 
 ### Milstones
 #### Milestone 1
+Loading and initial wrangling of raw bmg clariostar flourecence and absorbtion data into pandas data frames. These data frames have wavelengths as the column names and well number in column 0.
 
-Loading and initial wrangling of raw bmg clariostar flourecence and absorbtion data into pandas data frames
+#### Milestone 2
+Moving data from the flourecence and absorbtion data frames in to a new plotting data frame.
