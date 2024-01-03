@@ -19,3 +19,6 @@ Loading and initial wrangling of raw bmg clariostar flourecence and absorbtion d
 
 #### Milestone 2
 Moving data from the flourecence and absorbtion data frames in to a new plotting data frame.
+
+#### Milestone 3 
+Building plotsusing `matplotlib` the online documentation is very good for example for marker styles https://matplotlib.org/stable/api/markers_api.html.
