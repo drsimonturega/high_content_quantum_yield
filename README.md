@@ -20,5 +20,12 @@ Loading and initial wrangling of raw bmg clariostar flourecence and absorbtion d
 #### Milestone 2
 Moving data from the flourecence and absorbtion data frames in to a new plotting data frame.
 
-#### Milestone 3 
+#### Milestone 3
+Bulding data frame `hcqy_plot= pd.DataFrame()` with absorbance at excition wavelength and integrated flourecence intensity for four PS at five concentration and  four repeats. This is done using numpy and pandas I use a the `DataFrame.iloc[]` function from the pandas library it seems to gel well with analysis of UV\vis spectral data. From this data frame I calculate `hcqy_grad = pd.DataFrame()` the the gradients, fitting to a strate line x = ym +c  of absorbance against integrated fluorescence intesity for the data sets in the `hcqy_plot` data frame. This `hcqy_grad` data frame includes the gradient coeffienct, the intercept and the R^2 score as calculated from the `from sklearn.linear_model import LinearRegression` library.
+
+#### Milestone 4
+The next step is calulating the quantum yields of the unkown PS \u03A6x.
+
+
+#### Milestone x 
 Building plotsusing `matplotlib` the online documentation is very good for example for marker styles https://matplotlib.org/stable/api/markers_api.html.
