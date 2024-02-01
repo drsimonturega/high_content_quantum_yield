@@ -1,0 +1,10 @@
+
+Table 2, QC report
+
+| PS   | pippetteing error   | plot linearity   | Φx % error   |
+|------|---------------------|------------------|--------------|
+| TPP  | True                | False            |              |
+| C5   | True                | False            | True         |
+| C6   | True                | False            | True         |
+| C7   | True                | False            | False        |
+test

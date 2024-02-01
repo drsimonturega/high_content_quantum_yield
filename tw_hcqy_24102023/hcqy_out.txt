@@ -1,0 +1,20 @@
+HCQY 01/02/2024 15:59:52
+Standard PSis TPP
+Unknown PS are C5, C6 and TPP.
+            
+Table 1, Quantum yield values
+| PS   |        Φx |          σ |         2σ |   % error at σ |   % error at 2σ |
+|------|-----------|------------|------------|----------------|-----------------|
+| C5   | 0.0908356 | 0.00381414 | 0.00762828 |        4.19895 |          8.3979 |
+| C6   | 0.0855302 | 0.00296533 | 0.00593067 |        3.467   |          6.934  |
+| C7   | 0.0897022 | 0.00484663 | 0.00969327 |        5.40302 |         10.806  |
+Availible             as hcqy_values.csv
+
+Table 2, QC report
+| PS   | pippetteing error   | plot linearity   | Φx % error   |
+|------|---------------------|------------------|--------------|
+| TPP  | True                | False            |              |
+| C5   | True                | False            | True         |
+| C6   | True                | False            | True         |
+| C7   | True                | False            | False        |
+R^2 values; TPP = 0.9893, C5= 0.9943, C6= 0.9949, C7= 0.9991
