@@ -6,6 +6,7 @@
 * Functions
 * Classes
 * Running instructions
+* References
 
 ### Introduction
 Project to automat fitting of high conetent flourescent quantum yield measuremnts with an aim to standardise data analysis, quality control, results reporting and graphing of individual stages.
@@ -29,3 +30,9 @@ The next step is calulating the quantum yields of the unkown PS \u03A6x.
 
 #### Milestone x 
 Building plotsusing `matplotlib` the online documentation is very good for example for marker styles https://matplotlib.org/stable/api/markers_api.html.
+
+### Referecnces
+
+1 S. Dhami, A. J. D. Mello, G. Rumbles, S. M. Bishop, D. Phillips and A. Beeby, Photochem. Photobiol., 1995, 61, 341-346 (DOI:10.1111/j.1751-1097.1995.tb08619.x).
+
+2 A. T. R. Williams, S. A. Winfield and J. N. Miller, Analyst (London), 1983, 108, 1067-1071 (DOI:10.1039/an9830801067).
